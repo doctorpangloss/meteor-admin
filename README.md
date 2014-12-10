@@ -38,7 +38,8 @@ console.server(function() {
         // Prints 'Hello world!' to your terminal running the server
         console.log('Hello world!');
         return 'Hello client'!
-    }, /* A callback when the server command is done, which receives the error and the result` function (e,r) {
+    }, /* A callback when the server command is done, which receives the error and the result */
+       function (e,r) {
         // Prints 'Hello world!' to the Web Inspector/Developer Tools console.
         console.log(r);
     });
