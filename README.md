@@ -20,10 +20,10 @@ console.server(function() {
 ##### Installing
 
  1. Remove the `insecure` package if you don't want to let everyone execute commands on the server.
- 2. Set `Admin.allowed` to a function that checks if the provided `userId` is allowed to execute commands:
+ 2. Set `ServerAdmin.allowed` to a function that checks if the provided `userId` is allowed to execute commands:
     ```js
     if (Meteor.isServer) {
-        Admin.allowed = function(userId) {
+        ServerAdmin.allowed = function(userId) {
             var user = Meteor.users.findOne(userId);
 
             // For example, check if the user's `role` is an administrator
