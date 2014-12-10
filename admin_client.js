@@ -19,7 +19,7 @@ ServerAdmin.allowed = function() {
  * @returns {string}
  */
 ServerAdmin.eval = function (func, callback) {
-    Meteor.call("doctorpangloss:admin/admin", "({" + func.toString() + "})()", function (e, r) {
+    Meteor.call("doctorpangloss:admin/admin", "(" + func.toString() + ")()", function (e, r) {
         if (callback) {
             callback(e, r);
         } else {
