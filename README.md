@@ -42,6 +42,7 @@ console.server(function() {
         console.log(r);
     });
     ```
+ 4. Carefully explain to customer service and analytics folks how to use it!
 
 ##### Limitations
 
