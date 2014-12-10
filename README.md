@@ -32,6 +32,7 @@ console.server(function() {
     }
     ```
  3. Execute a command by opening up the browser's developer tools:
+    
     ```js
     console.server(function() {
         // Prints 'Hello world!' to your terminal running the server
