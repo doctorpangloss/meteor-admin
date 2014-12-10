@@ -9,7 +9,7 @@ Package.onUse(function (api) {
     // Allow us to detect 'insecure'.
     api.use('insecure', {weak: true});
 
-    api.versionsFrom('0.6.5');
+    api.versionsFrom('0.9.1');
     api.addFiles('admin_server.js', 'server');
     api.addFiles('admin_client.js', 'client');
     api.export('ServerAdmin');
