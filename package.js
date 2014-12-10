@@ -1,6 +1,6 @@
 Package.describe({
   name: 'doctorpangloss:admin',
-  summary: ' /* Fill me in! */ ',
+  summary: 'Interact with your server as a REPL live with administrative privileges',
   version: '1.0.0',
   git: ' /* Fill me in! */ '
 });
