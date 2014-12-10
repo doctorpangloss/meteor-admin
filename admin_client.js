@@ -1,4 +1,4 @@
-ServerAdmin = ServerAdmin || {};
+ServerAdmin = {};
 
 /**
  * The return value of the ServerAdmin.eval function. Could be a promise.
