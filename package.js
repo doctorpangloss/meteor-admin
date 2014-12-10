@@ -1,7 +1,7 @@
 Package.describe({
     name: 'doctorpangloss:admin',
     summary: 'Interact with your server as a REPL live with administrative privileges',
-    version: '1.0.0',
+    version: '1.0.1',
     git: 'https://github.com/doctorpangloss/meteor-admin.git'
 });
 
